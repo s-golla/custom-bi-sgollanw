@@ -1,0 +1,40 @@
+2025-04-18 20:49:40.873 | INFO     | __main__:generate_sales_data:23 - Starting sales data generation.
+2025-04-18 20:49:40.887 | INFO     | __main__:generate_sales_data:65 - Sample data saved to data/sales_data.csv.
+2025-04-18 20:49:40.897 | INFO     | __main__:generate_sales_data:66 - First 5 rows of the dataset:
+   order_id  order_date product_category region  sales_amount    cost payment_method  profit
+0  ORD00000  2024-07-29      Electronics  North        405.27  179.63           Cash  225.64
+1  ORD00001  2025-04-01      Electronics   West        430.43  193.49  Bank Transfer  236.94
+2  ORD00002  2025-01-13      Electronics  South        498.84   91.47           Cash  407.37
+3  ORD00003  2024-08-02            Books   West        128.33   67.59  Bank Transfer   60.74
+4  ORD00004  2024-06-28            Books   West         29.77  107.59         PayPal  -77.82
+2025-04-18 20:50:19.637 | INFO     | __main__:generate_sales_data:23 - Starting sales data generation.
+2025-04-18 20:50:19.698 | INFO     | __main__:generate_sales_data:65 - Sample data saved to data/sales_data.csv.
+2025-04-18 20:51:43.581 | INFO     | __main__:generate_sales_data:23 - Starting sales data generation.
+2025-04-18 20:51:43.591 | INFO     | __main__:generate_sales_data:65 - Sample data saved to data/sales_data.csv.
+2025-04-19 09:13:07.891 | INFO     | __main__:analyze_regional_performance:22 - Starting regional performance analysis.
+2025-04-19 09:13:07.891 | INFO     | __main__:analyze_regional_performance:26 - Output directory ensured: images
+2025-04-19 09:13:07.891 | INFO     | __main__:analyze_regional_performance:30 - Sales data loaded from data/sales_data.csv
+2025-04-19 09:13:07.907 | INFO     | __main__:analyze_regional_performance:34 - Aggregated sales and profit by region.
+2025-04-19 09:13:08.080 | INFO     | __main__:analyze_regional_performance:54 - Total Sales by Region chart created.
+2025-04-19 09:13:08.100 | INFO     | __main__:analyze_regional_performance:71 - Total Profit by Region chart created.
+2025-04-19 09:13:08.197 | INFO     | __main__:analyze_regional_performance:77 - Regional performance visualization saved to images/region_performance.png
+2025-04-19 09:16:45.722 | INFO     | __main__:rank_product_profitability:22 - Starting product profitability ranking.
+2025-04-19 09:16:45.722 | INFO     | __main__:rank_product_profitability:26 - Output directory ensured: images
+2025-04-19 09:16:45.722 | INFO     | __main__:rank_product_profitability:30 - Sales data loaded from data/sales_data.csv
+2025-04-19 09:16:45.722 | INFO     | __main__:rank_product_profitability:35 - Ranked products by total profit.
+2025-04-19 09:16:45.904 | INFO     | __main__:rank_product_profitability:44 - Visualization for product profitability created.
+2025-04-19 09:16:45.931 | INFO     | __main__:rank_product_profitability:49 - Product profitability visualization saved to images/product_profit.png
+2025-04-19 09:18:17.820 | INFO     | __main__:analyze_profit:22 - Starting profit analysis.
+2025-04-19 09:18:17.820 | INFO     | __main__:analyze_profit:26 - Output directory ensured: images
+2025-04-19 09:18:17.820 | INFO     | __main__:analyze_profit:30 - Sales data loaded from data/sales_data.csv
+2025-04-19 09:18:17.820 | INFO     | __main__:analyze_profit:34 - Added 'month' column to the dataset.
+2025-04-19 09:18:17.840 | INFO     | __main__:analyze_profit:38 - Aggregated profit by product category, region, and month.
+2025-04-19 09:18:18.173 | INFO     | __main__:analyze_profit:48 - Visualization for profit analysis created.
+2025-04-19 09:18:18.244 | INFO     | __main__:analyze_profit:53 - Profit visualization saved to images/profit_analysis.png
+2025-04-19 09:19:50.512 | INFO     | __main__:analyze_sales_trend:22 - Starting sales trend analysis.
+2025-04-19 09:19:50.512 | INFO     | __main__:analyze_sales_trend:26 - Output directory ensured: images
+2025-04-19 09:19:50.515 | INFO     | __main__:analyze_sales_trend:30 - Sales data loaded from data/sales_data.csv
+2025-04-19 09:19:50.518 | INFO     | __main__:analyze_sales_trend:34 - Added 'month' column to the dataset.
+2025-04-19 09:19:50.526 | INFO     | __main__:analyze_sales_trend:39 - Aggregated sales by month.
+2025-04-19 09:19:50.689 | INFO     | __main__:analyze_sales_trend:48 - Visualization for sales trend created.
+2025-04-19 09:19:50.727 | INFO     | __main__:analyze_sales_trend:53 - Sales trend visualization saved to images/sales_trend.png
